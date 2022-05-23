@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF 
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+xmlns:foaf="http://xmlns.com/foaf/0.1/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="http://viaf.org/viaf/8450158369778901460009"> <!--sogg identificato da questo URI-->
+<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person/"> <!--predicato-tipo persona-ogg-->
+<foaf:name>Francesco Petrarca</foaf:name><!--predicato-nome Francesco Petrarca-oggetto-->
+
+<rdf:Description rdf:about="http://viaf.org/viaf/8450158369778901460009"> <!--Francesco Petrarca-sogg-->
+<dc:creator rdf:resocurce="http://viaf.org/viaf/180567047"><!--predicato-creator oggetto-epistole-->
+
+<rdf:Description rdf:about="http://viaf.org/viaf/180567047"><!--sogg identificato da questo uri-->
+<dc:title>Epistolae Familiares</dc:title>
+
+<rdf:Description rdf:about="http://viaf.org/viaf/8450158369778901460009"><!--Francesco Petrarca-sogg-->
+<foaf:knows rdf:resocurce="http://vocab.getty.edu/page/ulan/500107171"><!--conosce-predicato giovanni colonna-ogg-->
+(<rdf:Description rdf:about="http://vocab.getty.edu/page/ulan/500107171"><!--sogg identificato da questo uri è giovanni colonna-->)
+<foaf:name>Giovanni Colonna</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://viaf.org/viaf/183405805"><!--familiares-sogg-->
+<dc:publisher rdf:resocurce="http://viaf.org/viaf/34610850"><!--editore-predicato gregorio de Gregori -ogg-->
+<!--(--><rdf:Description rdf:about="http://viaf.org/viaf/34610850"><!--)--><!--sogg identificato da questo uri, Gregorio de gregori-->
+<foaf:maker>Kitābu ṣalāti s-sawā'ī</foaf:maker> <!--È il primo libro conosciuto stampato in arabo con caratteri mobili-->
+</rdf:Description>
+</rdf:RDF>
