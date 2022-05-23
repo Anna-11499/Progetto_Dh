@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF_8"?>
+<!-- root e namespaces necessari alla descrizone digitale del manoscritto-->
+<catalogo:metadata xmlns:catalogo="#" xmlns:dc="http://purl.org/dc/elements/1.1" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="collezione"> <!-- identificativo univoco-->
+	<volume xml:id="collezione-01">
+		<item xml:id="collezione-01-0086v-0087r-0087v-0088r-0088v-0089r">
+			<dc:title xsi:type="catalogo:viaf" catalogo:ref="http://viaf.org/viaf/8450158369778901460009">De locis inisignibus Urbis Romae</dc:title>
+			<dc:creator xsi:type="catalogo:viaf" catalogo:ref="http://viaf.org/viaf/126226913">Kniovna Akademie ved ČR</dc:creator><!--resposabile intellettuale dell'opera non è Petrarca in questo caso perchè sto descrivendo l'edizione digitale, quindi il creator è l'ente responsabile della pubblicazione online-->
+			<dcterms:date xsi:type="dcterms:W3CDTF"></dcterms:date><!--data in cui è stato realizzato il formato per il web-->
+			<dc:subject xsi:type="dcterms:TGN">7000874</dc:subject><!--Roma-->
+			<dc:subject xsi:type="dcterms:Viaf">http://viaf.org/viaf/180567047</dc:subject><!--epistolae familiares-->
+			<dc:subject xsi:type="dcterms:LCCN">http://id.loc.gov/authorities/names/n79092622</dc:subject>
+			<dc:description>Epistola inviata da Francesco Petrarca a Giovanni Colonna, nella quale riflette sulla storia dei luoghi più illustri di Roma e di come il passato della città sia dimenticato dai romani suoi contempranei</dc:description>
+			<dc:description xml:lang="en"> Letter sent by Francesco Petrarca to Giovanni Colonna, in which the author thinks about the most famous places in Rome and how the city's past has forgotten by contemporary Romans.</dc:description>
+			<dc:publisher>https://www.europeana.eu</dc:publisher> <!-- sto descrivendo l'epistola però con dc descrivo l'oggetto digitale quindi chi pubblica il mio item è Europeana-->
+			<dc:publisher xsi:type="dcterms:Viaf">http://viaf.org/viaf/126226913</dc:publisher> <!--la biblioteca di praga da cui europeana ha tratto le info-->
+			<dc:type>codex</dc:type>
+			<dc:format></dc:format><!--tipologia di software necessario alla visualizzazione-->
+			<dc:identifier xsi:type="dcterms:URI">http://www.manuscriptorium.com/apps/index.php?direct=record&amp;pid=AIPDIG-KNAVCR2_TF_8______07EFPN4-cs</dc:identifier>
+			<dc:language>lat</dc:language>
+			<dc:coverage xsi:type="dcterms:TGN" catalogo:ref="http://vocab.getty.edu/page/tgn/7006464">Praha</dc:coverage>
+			<dc:rights>https://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
+			<dc:source>Knihovna AV ČR</dc:source>
+			<dcterms:IsPartOf xsi:type="dcterms:URI">https://www.europeana.eu/it/item/92004/object_KNAVCR2_TF_8______07EFPN4</dcterms:IsPartOf><!-- perchè epistola IV,2 è fisicamente inclusa nel manoscritto-->
+		</item>
+	</volume>
+</catalogo:metadata>
